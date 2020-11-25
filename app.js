@@ -8,23 +8,23 @@ app.use(express.static("public"));
 
 //routes
 app.get("/", function(req, res){
-    res.render("index.html", {"randomName": randomName});
+    res.render("index.ejs", {"randomName": randomName});
 });
 
 app.get("/c++", function(req, res){
-    res.render("c++.html", {"randomName": randomName});
+    res.render("c++.ejs", {"randomName": randomName});
 });
 
 app.get("/java", function(req, res){
-    res.render("java.html", {"randomName": randomName});
+    res.render("java.ejs", {"randomName": randomName});
 });
 
 app.get("/javascript", function(req, res){
-    res.render("javascript.html", {"randomName": randomName});
+    res.render("javascript.ejs", {"randomName": randomName});
 });
 
 app.get("/python", function(req, res){
-    res.render("python.html", {"randomName": randomName});
+    res.render("python.ejs", {"randomName": randomName});
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
