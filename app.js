@@ -9,23 +9,23 @@ var randomName = fakerData.name.findName()
 console.log(randomName);
 
 app.get("/", function(req,res){
-	res.render("index.php", {"fakerData":fakerData});
+	res.render("index.html", {"fakerData":fakerData});
 });
 
 app.get("/c++", function(req,res){
-	res.render("c++.php");
+	res.render("c++.html");
 });
 
 app.get("/java", function(req,res){
-	res.render("java.php");
+	res.render("java.html");
 });
 
 app.get("/javascript", function(req,res){
-	res.render("javascript.php");
+	res.render("javascript.html");
 });
 
 app.get("/python", function(req,res){
-	res.render("python.php");
+	res.render("python.html");
 });
 
 
