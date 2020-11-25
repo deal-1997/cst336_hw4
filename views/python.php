@@ -1,17 +1,17 @@
 <%- include('partials/header.ejs') %>
             
             <p align:"center"></p>
-            <a href="index.html">Home</a>
-            <a href="c++.html">C++</a>
-            <a href="javascript.html">JavaScript</a>
-            <a href="python.html">Python</a>
-            <a href="java.html">Java</a>
+            <a href="index.php">Home</a>
+            <a href="c++.php">C++</a>
+            <a href="javascript.php">JavaScript</a>
+            <a href="python.php">Python</a>
+            <a href="java.php">Java</a>
             <p align="center">       
             </nav>
             <br /><br />
             <main>
                 <figure>
-                    <img src="img/java.jpg" height="450">    
+                    <img src="img/python.jpeg" height="450">    
                 </figure>
                 <div>
                    <p>Hello <%= randomName %>!</p>
