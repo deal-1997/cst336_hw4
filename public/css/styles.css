@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Roman';
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 0px;
+}
+.link {
+    color: green;
+    padding: 10px;
+}
+body {
+    background-color: black;
+    color: gray;
+    background-image:url(programminglanguages.jpg);
+}
+header, main, nav, footer {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+nav a {    
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.5em;
+    text-decoration: none;    
+    color: white;             
+}
+nav a:active {
+    border: 2px orange solid;
+    font-size: 2em;
+    color: #f1e832;
+}
+nav a:hover {   
+    border: 2px orange solid;
+    font-size: 4em;
+    transition: .9s;    
+    color: #f1e832;
+}
+footer {
+    font-size: smaller;
+    color: yellow;
+}
+table {
+    margin: 0px auto;
+}
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong {
+    color: orange;
+}
+#table-header {
+    background-color: #351a00;
+}
+.table-row {
+    background-color: #753900;
+}
+ul {
+    width: 500px;
+    margin: 0px auto;
+    text-align: left;
+}
+.hobby {
+    color: yellow;
+}
