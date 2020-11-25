@@ -27,7 +27,6 @@ app.get("/python", function(req, res){
     res.render("python.ejs", {"randomName": randomName});
 });
 
-
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Express server is running...");
 });
