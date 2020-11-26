@@ -11,8 +11,8 @@ app.get("/", function(req, res){
     res.render("index.ejs", {"randomName": randomName});
 });
 
-app.get("/c++", function(req, res){
-    res.render("c++.ejs", {"randomName": randomName});
+app.get("/c", function(req, res){
+    res.render("cplusplus.ejs", {"randomName": randomName});
 });
 
 app.get("/java", function(req, res){
@@ -29,4 +29,6 @@ app.get("/python", function(req, res){
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Express server is running...");
+    
+    /*app.listen("8080", "127.0.0.1", function() { console.log("Running Express Server..."); });*/
 });
